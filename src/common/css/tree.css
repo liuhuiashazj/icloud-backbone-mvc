@@ -1,0 +1,156 @@
+.jstree {
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.jstree ul {
+    margin-left: 12px;
+}
+.treehi .jstree ul {
+    margin-left: 20px;
+}
+
+
+.jstree ul, .jstree li {
+    list-style: none;
+    vertical-align: top;
+
+}
+
+.jstree-icon, .jstree-anchor {
+    display: inline-block;
+    height: 28px;
+    line-height: 26px;
+    vertical-align: middle;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+}
+.treehi .jstree-icon, .treehi .jstree-anchor{
+    height: 30px;
+    line-height: 30px;
+}
+
+.jstree-input {
+    line-height: 22px;
+    height: 22px;
+    border: 1px solid #63a2ef;
+    vertical-align: middle;
+    padding-left:5px;
+    outline: none;
+    max-width: 120px;
+    overflow: hidden;
+}
+
+.jstree-anchor {
+    border: 2px dotted transparent;
+    cursor: pointer;
+    width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*.jstree-item-active * {
+    color: #63a2ef;
+}*/
+
+.treehi .jstree-item >.jstree-witem> .jstree-icon {
+    margin-top: 0;
+}
+.jstree-item >.jstree-witem> .jstree-icon {
+    width: 18px;
+    background: url(../imgs/fold.png) no-repeat -60px 7px transparent;
+    margin-left: 2px;
+    margin-top: -2px;
+    /*display: none;*/
+
+}
+.jstree-item >.jstree-witem> .jstree-icon:hover{
+    background-position: -60px -23px;
+}
+
+.jstree-open >.jstree-witem > .jstree-icon {
+    background: url(../imgs/fold.png) no-repeat -30px 7px transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+.jstree-open >.jstree-witem > .jstree-icon:hover{
+    background-position: -30px -23px;
+}
+
+.jstree-close>.jstree-witem > .jstree-icon {
+    background: url(../imgs/fold.png) no-repeat 1px 7px transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+.jstree-close>.jstree-witem > .jstree-icon:hover{
+    background-position: 1px -23px;
+
+}
+.treehi .jstree-witem{
+    height: 36px;
+}
+.jstree-witem{
+    position: relative;
+    z-index: 100;
+    height: 27px;
+}
+
+/*.jstree-item-on {
+    color: #63a2ef;
+}*/
+.jstree-item-on>.jstree-wname .jstree-anchor{
+    color: #63a2ef;
+}
+.jstree-cancel{
+    background: url(../imgs/fold.png) no-repeat -93px 6px transparent;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left:6px;
+    cursor: pointer;
+}
+.jstree-wname{
+    display: inline-block;
+}
+
+.treehi .jstree-item-active>.jstree-whole{
+    height: 40px;
+}
+.jstree-item-active>.jstree-whole{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 30px;
+    background: #e5e5e5;
+    user-select:none;
+}
+
+.treehi .depth1{
+    margin: 0;
+}
+.depth1{
+    margin-top: 6px;
+}
+
+.jstree .locked>.jstree-icon:after{
+    background: url('../imgs/locked.png') no-repeat center center;
+    content:' ';
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    position: relative;
+    left: 1px;
+    top: 2px;
+}
+.jstree .jstree-open>.locked>.person:after{
+    background: url('../imgs/locked1.png') no-repeat center center;
+}

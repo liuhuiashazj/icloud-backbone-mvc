@@ -1,0 +1,7 @@
+.wrapdoclist {
+    margin-bottom: 30px;
+}
+
+#doclist .jsdropdown-lists {
+    max-height: inherit;
+}

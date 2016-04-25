@@ -1,0 +1,251 @@
+
+#head {
+    height: 62px;
+    line-height: 62px;
+    background-color: #3f434b;
+    position: relative;
+    z-index: 101;
+
+}
+
+#head .logo {
+    min-width: 192px;
+    height: 36px;
+    position: relative;
+    margin-left: 22px;
+    margin-right: 45px;
+    top: 12px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 36px;
+}
+
+#head .logo img {
+    max-height: 36px;
+    vertical-align: middle;
+    border:none;
+}
+
+#head .wrap {
+    height: 34px;
+    line-height: 34px;
+    font-size: 15px;
+    width: 274px;
+    display: inline-block;
+
+}
+
+#head input {
+    height: 34px;
+    line-height: 34px;
+    font-size: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding-left: 42px;
+    color: #797c81;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(common/imgs/result.png) -99px -66px no-repeat #595f66;
+}
+
+#head .close {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 34px;
+    height: 34px;
+    background: url(common/imgs/result.png) 8px -123px no-repeat transparent;
+    cursor: pointer;
+    display: none;
+}
+
+#head .focus .close {
+    display: block;
+}
+
+#head .focus input {
+    background: #fff;
+    color: #333;
+    padding-left: 10px;
+
+}
+
+/*.listsearch {
+    position: absolute;
+    top: 34px;
+    left: 0px;
+    right: 0;
+    z-index: 2;
+    display: none;
+
+    -webkit-box-shadow: 0px 1px 1px 0px #d2d2d2;
+    box-shadow: 0px 1px 1px 0px #d2d2d2;
+    border: 1px solid #d2d2d2;
+
+}
+
+.listsearch li {
+    line-height: 36px;
+    color: #333;
+    padding-left: 11px;
+    background-color: #fff;
+    font-size: 13px;
+
+}
+
+.listsearch li a {
+    color: #2c80e7;
+}
+
+.listsearch li:nth-child(odd) {
+    background-color: #f5f5f5;
+}*/
+
+.dropdown3 {
+    -webkit-box-shadow: 0px 1px 1px 0px #d2d2d2;
+    box-shadow: 0px 1px 1px 0px #d2d2d2;
+    border: 1px solid #d2d2d2;
+}
+
+.dropdown3 .sug {
+    border: none;
+}
+
+.dropdown3 li {
+    /*line-height: 36px;*/
+    color: #333;
+    padding-left: 11px;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+.dropdown3 li span {
+    color: #2c80e7;
+}
+
+/*.dropdown3 li:nth-child(odd) {
+    background-color: #f5f5f5;
+}*/
+
+#head .infos {
+    position: absolute;
+    right: 23px;
+    top: 0px;
+
+}
+
+#head .infos > div {
+    display: inline-block;
+}
+
+#head .news {
+    width: 40px;
+    height: 62px;
+    position: relative;
+    background: url(common/imgs/result.png) 0 -168px no-repeat transparent;
+}
+
+#head .news span {
+    width: 19px;
+    height: 19px;
+    line-height: 20px;
+    background-color: #fa6430;
+    color: white;
+    position: absolute;
+    right: 11px;
+    top: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    transform: scale(0.83);
+    text-align: center;
+}
+
+#head .avatar {
+    width: 68px;
+    height: 62px;
+    text-align: center;
+    position: relative;
+
+}
+
+.avatar .arrow {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(common/imgs/result.png) 58px -221px no-repeat transparent;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.avatar .unfold {
+
+    background-position: -12px -221px;
+}
+
+.avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+}
+
+.more {
+    position: absolute;
+    right: 0px;
+    top: 56px;
+    background-color: #fff;
+    width: 119px;
+    border: 1px solid #d2d2d2;
+    color: #666;
+    -webkit-box-shadow: 0px 1px 2px 1px #dedede; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    box-shadow: 0px 1px 2px 1px #dedede;
+    line-height: 30px;
+    font-size: 13px;
+    padding: 10px 0 16px;
+    display: none;
+    word-wrap: break-word;
+}
+
+.more .logout {
+    cursor: pointer;
+
+}
+
+.more .logout:hover {
+    color: #2c80e7;
+}
+
+.more * {
+    color: #666;
+}
+
+.more .ar {
+    position: absolute;
+    right: 21px;
+    top: -12px;
+    width: 20px;
+    height: 20px;
+    background: url(common/imgs/result.png) -109px -243px no-repeat transparent;
+}
+
+.top .tit {
+    margin-left: 6px;
+}
+
+

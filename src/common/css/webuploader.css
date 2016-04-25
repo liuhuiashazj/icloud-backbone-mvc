@@ -1,0 +1,159 @@
+.webuploader-container {
+    position: relative;
+}
+
+.webuploader-element-invisible {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.webuploader-pick {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: #63a2ef;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.webuploader-pick-hover {
+    background: #63a2ef;
+}
+
+.webuploader-pick-disable {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.wrapup {
+    width: 551px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 4px 0px #fff;
+    box-shadow: 0px 0px 4px 0px #fff;
+    position: relative;
+    color: #333;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.wrapup .nav {
+    padding-left: 24px;
+
+    line-height: 40px;
+}
+
+.wrapup .head {
+    padding-left: 24px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.wrapup .close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url('../imgs/result.png') no-repeat -100px -452px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.files .item {
+    border-bottom: 1px solid #ddd;
+    padding-left: 24px;
+    background-color: #fff;
+    text-align: left;
+    position: relative;
+}
+
+.files span {
+    display: inline-block;
+    line-height: 51px;
+    height: 51px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 100;
+    vertical-align: middle;
+}
+
+.files .t1 {
+    width: 40px;
+    height: 32px;
+}
+
+.files .t2 {
+    width: 240px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.files .t3 {
+    width:50px;
+}
+
+.files .t4 {
+    width: 80px;
+    text-align: right;
+
+
+}
+.files .ok .status{
+    background: url('../imgs/result.png') no-repeat 27px -58px;
+}
+
+.files .fail .status{
+
+    background: url('../imgs/result.png') no-repeat 27px -681px;
+
+}
+.files .fail .status i{
+    color: #fa9053;
+    font-style: normal;
+
+}
+.files .fail .status .retry{
+    color: #3d87e8;
+    cursor: pointer;
+    margin-left:5px;
+}
+.files .fail .status .retry:hover{
+    text-decoration: underline;
+}
+.files .t5 {
+    text-align: center;
+    color: #3d87e8;
+    width:50px;
+
+}
+
+.files .progress {
+    position: absolute;
+    left: 0;
+    height: 51px;
+    background-color: #d0e3fa;
+    width: 0;
+    z-index: 50;
+    overflow: hidden;
+}
+
+/*.wrapup .start {
+    width: 80px;
+    height: 27px;
+    margin: 11px auto 10px;
+    background-color: #63a2ef;
+    text-align: center;
+    line-height: 27px;
+    color: white;
+    cursor: pointer;
+}*/
+

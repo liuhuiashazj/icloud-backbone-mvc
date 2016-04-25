@@ -1,0 +1,56 @@
+#nav{
+    position: absolute;
+    width:190px;
+    left:70px;
+    border-right:1px solid #e5e5e5;
+    bottom:0;
+        overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #f4f5f6;
+    box-sizing: border-box;
+
+
+}
+
+.tabnav{
+    margin-bottom:14px;
+    margin-top: 32px;
+}
+.tabnav li:first-child{
+    border-right: 1px dotted #999;
+}
+.tabnav li{
+    display: inline-block;
+    width:45%;
+    cursor: pointer;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}
+
+.tabnav .cur{
+    color:#2c80e7;
+}
+.tabnav  li:hover{
+        color:#2c80e7;
+
+}
+
+.listnav{
+    border-top:1px solid #dee2e7;
+    line-height: 50px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.listnav li{
+    padding-left:26px;
+    cursor: pointer;
+
+}
+.listnav li:hover{
+    color:#2c80e7;
+}
+.listnav .cur{
+    background-color: #e5e5e5;
+}
+

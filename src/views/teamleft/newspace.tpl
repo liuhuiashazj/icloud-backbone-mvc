@@ -1,0 +1,1 @@
+<div class="nav"><span class="tit">新建空间</span><span class="close close4"></span></div> <input type="text" id="spacename" value=""> <div class="op6"><div id="ok4" class="bbutton">确认</div><div class="close3 close4">取消</div></div>

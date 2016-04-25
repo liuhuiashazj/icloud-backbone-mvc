@@ -1,0 +1,39 @@
+#searchall {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 91px;
+    right: 0;
+    bottom: 0;
+}
+
+#searchtop .top {
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-bottom: 17px;
+}
+
+#searchtop .top span {
+    padding-right: 6px;
+}
+
+#searchall .category a{
+    color:#2c80e7;
+}
+
+#searchtop .top .tit {
+    margin-left: 0;
+}
+
+#searchtop .top .tit b {
+    color: #2c80e7;
+    font-weight: normal;
+}
+
+#searchtop .cancel {
+    color: #2c80e7;
+    border-right: 1px solid #373737;
+    padding-left: 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,576 @@
+#newmeet {
+    position: relative;
+    z-index: 100;
+}
+
+.wrapnew {
+    font-size: 13px;
+    line-height: 31px;
+    color: #333;
+    margin-top: 16px;
+    position: relative;
+}
+
+.wnew {
+    position: relative;
+    margin: 0 30px 0px;
+    padding-bottom: 0px;
+    padding-right: 175px;
+}
+
+.wrapnew:after {
+    content: "";
+    display: block;
+    height: 7px;
+    margin: 0 30px 8px;
+    width: auto;
+    clear: both;
+    background: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0UyQ0RBRDc3RjQ1MTFFNTkxMENDMkQyQTk4MDBBQjEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0UyQ0RBRDg3RjQ1MTFFNTkxMENDMkQyQTk4MDBBQjEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3RTJDREFENTdGNDUxMUU1OTEwQ0MyRDJBOTgwMEFCMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3RTJDREFENjdGNDUxMUU1OTEwQ0MyRDJBOTgwMEFCMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIAAEABgMBEQACEQEDEQH/xABNAAEAAAAAAAAAAAAAAAAAAAAIAQEAAAAAAAAAAAAAAAAAAAAAEAADAQAAAAAAAAAAAAAAAAAAxIVGEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBG4eYuB//Z) repeat-x 0px 6px;
+}
+
+.wnew input {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    line-height: 31px;
+    font-size: 13px;
+}
+
+.wrappro {
+    position: absolute;
+    right: 0px;
+    top: -1px;
+}
+
+.sright2 {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-bottom-color: #ddd;
+    position: relative;
+}
+
+.sright2 input {
+    border: none;
+    padding-left: 35px;
+    vertical-align: bottom;
+    height: 30px;
+}
+
+.sright2.focus {
+    border: 1px solid #63a2ef;
+}
+
+.sright2.focus input {
+    background: url(../imgs/result.png) -103px -821px no-repeat transparent;
+}
+
+.wrappro .focus:after {
+    /*content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url(../imgs/result.png) 9px -451px no-repeat transparent;*/
+}
+
+.wnew .focus {
+    border-color: #64a2ef;
+}
+
+.wnew .errno {
+    border-color: #f8653a;
+}
+
+.wtime .errno {
+    border-color: #f86f46;
+    color: #f7653a;
+}
+
+.wnew > div {
+    margin-bottom: 10px;
+    position: relative;
+    clear: both;
+    word-wrap: break-word;
+}
+
+#detail .wnew > div {
+    margin-bottom: 4px;
+}
+
+.wnew .ltab {
+    width: 60px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding-right: 20px;
+}
+
+.l80 {
+    margin-left: 80px;
+}
+
+.wnew .ltab:after {
+    content: ':';
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    line-height: 29px;
+    color: #333;
+}
+
+.scenter {
+    margin-left: 80px;
+    margin-right: 270px;
+    border-bottom: 1px solid #ddd;
+}
+
+.scenter input {
+    width: 100%;
+}
+
+.sright {
+    position: relative;
+    margin-left: 80px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sright span {
+    margin-right: 10px;
+    background: url(../imgs/result.png) right -861px no-repeat #f5f5f5;
+    border-radius: 12px;
+    padding-right: 35px;
+    padding-left: 8px;
+    line-height: 25px;
+    display: inline-block;
+    float: none;
+    cursor: pointer;
+}
+
+.sright span:hover {
+    background-position: right -894px;
+}
+
+.sright input,
+.scenter input {
+    vertical-align: bottom;
+    border-bottom: none;
+    height: 30px;
+    margin-bottom: 1px;
+}
+
+.wmark .sright input {
+    width: 100%;
+}
+
+.wnew .bluebox {
+    border-bottom: none;
+}
+
+.wnew .tit {
+    margin-right: 16px;
+}
+
+.wnew table {
+    width: 100%;
+}
+
+.wnew table th:nth-child(1),
+.wnew table td:nth-child(1) {
+    text-align: left;
+}
+
+.wnew table th:nth-child(2),
+.wnew table td:nth-child(2) {
+    width: 118px;
+    text-align: center;
+}
+
+.wnew table th:nth-child(3),
+.wnew table td:nth-child(3) {
+    width: 104px;
+    text-align: center;
+}
+
+.wnew table th:nth-child(4),
+.wnew table td:nth-child(4) {
+    width: 90px;
+    text-align: center;
+}
+
+.wtime p {
+    display: inline-block;
+}
+
+.wtime input {
+    background: url(../imgs/result.png) 91px -453px no-repeat transparent;
+    width: 105px;
+    height: 29px;
+    line-height: 29px;
+    border: 1px solid #dfdfdf;
+    /* text-align: center; */
+    margin-right: 6px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.wtime .end {
+    margin-left: 6px;
+}
+
+.wtime .date {
+    width: 70px;
+    background-position: 59px -453px;
+    padding-left: 15px;
+}
+
+.wtime .errno {
+    background-position: 93px -411px;
+}
+
+.wtime .errno.date {
+    background-position: 63px -411px;
+}
+
+.wnew .wtablist {
+    margin-left: 0;
+}
+
+.xdsoft_datetimepicker .xdsoft_timepicker {
+    width: 69px;
+}
+
+.xdsoft_datetimepicker .xdsoft_datepicker {
+    width: 202px;
+}
+
+.wtitle .sright {
+    width: 200px;
+    float: left;
+    margin-left: 0;
+}
+
+.wtime {
+    clear: both;
+}
+
+.wtablist .op1 {
+    margin-left: 30px;
+}
+
+.wnew .op3 {
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    bottom: 0px;
+    width: 110px;
+}
+
+.op3 div {
+    height: 128px;
+    line-height: 128px;
+    color: white;
+    width: 100%;
+    background-color: #63a2ef;
+    text-align: center;
+    cursor: pointer;
+}
+
+.op3 .save {
+    background-color: #63a2ef;
+}
+
+.op3 .save:hover,
+.op3 .send:hover,
+.webuploader-pick-hover {
+    background-color: #5196ea;
+}
+
+.op3 .cancel {
+    background-color: #ccc;
+}
+
+.op3 .cancel:hover {
+    background-color: #bbbbbb;
+}
+
+.author {
+    color: #2c80e7;
+    cursor: pointer;
+}
+
+.wrapmem {
+    height: 268px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.op4 {
+    padding-left: 24px;
+    position: relative;
+    line-height: 27px;
+    margin: 15px 0;
+}
+
+.op4 .t1 {
+    margin-right: 12px;
+}
+
+.op4 .bbutton {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    line-height: 27px;
+}
+
+.op4 .bbutton:hover {
+    background-color: #5196ea;
+}
+
+#hi {
+    margin-left: 12px;
+}
+
+.member .op5 {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #999;
+    position: relative;
+}
+
+.member .wrapop5:hover .op5:after {
+    position: absolute;
+    right: -30px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    content: '';
+    background: url(../imgs/result.png) -32px -287px no-repeat transparent;
+}
+
+.member .nav {
+    padding-left: 20px;
+}
+
+.member .stop {
+    color: #2c80e7;
+    cursor: pointer;
+    position: absolute;
+    right: 115px;
+    top: 0;
+}
+
+.thead {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dddddd;
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+}
+
+.thead span {
+    display: block;
+}
+
+.thead .t1 {
+    margin-right: 163px;
+    padding-left: 20px;
+}
+
+.member .t2 {
+    width: 163px;
+}
+
+.wrapmem .t2 {
+    color: #999;
+}
+
+.thead .t2 {
+    width: 163px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+
+.thead .t2scroll {
+    width: 200px;
+}
+
+.member .bluebox {
+    margin-right: 2px;
+}
+
+.member .items tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.member .items tr td:first-child {
+    line-height: 18px;
+}
+
+#wrapauthor {
+    max-height: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    ;
+}
+
+#wrapauthor .asearch {
+    display: none;
+}
+
+#wrapauthor .haslist {
+    display: none;
+}
+
+.items tr td:first-child {
+    line-height: 22px;
+}
+
+.op7 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.wtablist {
+    position: relative;
+    /*需加上，否则拖拽上传样式不对*/
+    font-size: 13px;
+}
+
+#searchall .wtablist {
+    position: static;
+}
+
+#newtab .wtablist {
+    position: relative;
+}
+
+.uptips {
+    position: absolute;
+    left: 304px;
+    top: 0;
+    color: #fa6430;
+    line-height: 31px;
+}
+
+
+/*search 页*/
+
+.wrapop1 {
+    position: relative;
+}
+
+#searchall .op1 {
+    position: absolute;
+    right: 0;
+    top: -39px;
+    z-index: 10000;
+}
+
+#searchall .op7 {
+    display: none;
+}
+
+.optabs {
+    line-height: 38px;
+    background-color: #fff;
+    position: relative;
+    z-index: 100;
+    /* width: 200px; */
+    /*border-bottom: 1px solid #e1e1e1;
+    height: 39px;*/
+    /* overflow: hidden; */
+}
+
+.optabs span {
+    display: inline-block;
+    border: 1px solid #e1e1e1;
+    border-bottom: none;
+    padding: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.optabs span.cur {
+    cursor: auto;
+    color: #2c80e7;
+    /*height: 40px;*/
+}
+
+.optabs span:first-child {
+    border-right: none;
+}
+
+.optabs .cur {
+    background-color: #f5f5f5;
+}
+
+.searchwrap input {
+    margin-right: 13px;
+}
+
+.searchwrap table td {
+    vertical-align: middle;
+}
+
+.searchwrap {
+    position: relative;
+}
+
+.searchwrap .op1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.searchwrap .icon {
+    margin-right: 13px;
+}
+
+#pastewrap,
+#pastewrapibox,
+#pastewrapteam {
+    position: absolute;
+    /* width: 100%; */
+    bottom: 0;
+    right: 0;
+    border: 3px dotted #ccc;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    min-height: 40px;
+    display: none;
+    text-align: center;
+    color: #2c80e7;
+    line-height: 80px;
+    z-index: 101;
+}
+
+.top0 {
+    top: 50px;
+}
+
+.top1 {
+    top: 77px;
+}
+
+.top2 {
+    top: 67px;
+}
+
+.top3 {
+    top: 104px;
+}
+
+.webuploader-dnd-over {
+    border-color: red;
+}

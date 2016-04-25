@@ -1,0 +1,89 @@
+#file .crumbs {
+    margin: 0 20px;
+}
+
+.crumbs .gomain {
+    padding-left: 0;
+}
+
+.gomain, .gomeet {
+    color: #2c80e7;
+    cursor: pointer;
+}
+
+.filedetail {
+    position: relative;
+    /*margin-left: 20px;*/
+    overflow: auto;
+    font-size: 13px;
+
+}
+
+#file .op8 {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background:none;
+}
+
+#file .op8 span {
+    display: inline-block;
+    line-height: 26px;
+    height: 26px;
+    overflow: hidden;
+    border: 1px solid #c2c2c2;
+    color: #666;
+    width: 78px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.filedetail .title {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 6px 0 6px 20px;
+
+}
+.filedetail .fname input{
+}
+
+.filedetail .fname {
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+}
+
+.filedetail .crename {
+    height: 29px;
+}
+
+.filedetail .editname {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(common/imgs/result.png) -54px -599px no-repeat transparent;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.filedetail .editname:hover {
+    background-position: -54px -642px;
+}
+
+.infos {
+    color: #666;
+    line-height: 13px;
+    margin-bottom: 15px;
+    margin-left:20px;
+}
+#file .crumbs{
+    line-height:43px;
+    background-position: 0 42px;
+
+
+}
+#file .crumbs span:first-child{
+    padding-left:0;
+}

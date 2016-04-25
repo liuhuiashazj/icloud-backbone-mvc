@@ -1,0 +1,20 @@
+test
+
+# by liuhui
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/src/views/doclist/doclist.js b/src/views/doclist/doclist.js
+index 63aca58..ced80a9 100644
+--- a/src/views/doclist/doclist.js
++++ b/src/views/doclist/doclist.js
+@@ -1328,7 +1328,7 @@ define([
+                 }
+                 return;
+             }
+-            //if(this.options.route=='team') return;/*企业团队先屏蔽;又不屏蔽了*/
++            if(this.options.route=='team') return;/*企业团队先屏蔽;又不屏蔽了*/
+             self.modal = self.modal || {};
+             self.modal.preview = new $.fn.Modal({
+                 id: '#wrappreview',

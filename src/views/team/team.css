@@ -1,0 +1,80 @@
+
+#wrapteam .op1 {
+    margin-top: 10px;
+
+}
+
+#wrapteam .wrapdoclist {
+    position: relative;
+}
+
+#wrapteam .top1 {
+    top: 40px;
+}
+
+#wrapteam .top0 {
+    top: 0;
+}
+
+.welcome {
+    color: #a2a2a2;
+    font-size: 27.22px;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    height: 256px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -128px;
+    text-align: center;
+}
+
+.welcome .p {
+    font-family: '微软雅黑';
+    text-align: center;
+    position: relative;
+    color:#a2a2a2;
+}
+
+#wrapteam .left {
+    position: absolute;
+    width: 550px;
+    height: 573px;
+    left: 0;
+    top: 0;
+    background: url('common/imgs/left.jpg') no-repeat left top;
+    z-index: 1;
+}
+
+#wrapteam .right {
+    position: absolute;
+    width: 575px;
+    height: 609px;
+    right: 0;
+    bottom: 0;
+    background: url('common/imgs/right.jpg') no-repeat right bottom;
+}
+
+
+
+
+
+#wrapteam .detailtab tr .t6 {
+    padding-right: 30px;
+}
+#wrapteam .op7{
+    display:none;
+}
+#wrapteam .sort:after {
+    display:none;
+}
+#wrapteam .by{
+    right:0;
+    display:none;
+
+}
+#wrapteam th:hover .by,#wrapteam th.cur .by{
+    display:inline-block;
+}
+

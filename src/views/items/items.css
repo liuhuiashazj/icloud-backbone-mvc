@@ -1,0 +1,36 @@
+#items .crumbs{
+    margin-left:0;
+}
+.nav {
+    height: 43px;
+    line-height: 43px;
+    padding-left: 20px;
+    position: relative;
+    font-size:14px;
+    /*font-weight: bold;*/
+}
+.nav .status{
+    font-weight: normal;
+    display: inline-block;
+    margin-left:6px;
+}
+.status .on{
+    color:#2c80e7;
+}
+.status li{
+    display: inline-block;
+}
+.status input{
+    margin:0 5px 0 15px;
+    cursor: pointer;
+
+}
+
+
+.page{
+    position: absolute;
+    right:10px;
+    top:0;
+    line-height: 43px;
+}
+
